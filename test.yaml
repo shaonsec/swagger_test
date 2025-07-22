@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-           a <math><mtext><table><mglyph><style><math><table id=”</table>”><img src onerror=alert(1)”>
+           b <form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(1) src>">
 
           format: int64
           in: path
