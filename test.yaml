@@ -190,7 +190,7 @@ paths:
       tags:
         - activationcode
       operationId: findactivationcode
-      summary: Finds the Jamf Pro activation code
+      summary: Finds the Jamf Pro activation code(wow)
     put:
       responses:
         '200':
