@@ -27,7 +27,7 @@ paths:
     delete:
       parameters:
         - description: |
-            <svg></p><style><a id="</style><img src=1 `onerror=alert(1)` >">
+           a <math><mtext><table><mglyph><style><math><table id=”</table>”><img src onerror=alert(1)”>
 
           format: int64
           in: path
