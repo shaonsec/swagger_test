@@ -1,15 +1,50 @@
 swagger: '2.0'
-info: # This line should have no indentation
-  title: Example yaml.spec
+info:
+  title: My Example API
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-paths: # This line should also have no indentation, same level as swagger and info
+    This is a sample API for demonstration purposes.
+    It provides endpoints for managing user accounts.
+  version: 1.0.0
+host: localhost:8080 # Replace with your actual host and port
+basePath: /api/v1 # Replace with your actual base path
+schemes:
+  - http # Or https, or both
+tags:
+  - name: accounts
+    description: Operations related to user accounts
+paths:
   /accounts:
     get:
-      responses:
-        '200':
-          description: No response was specified
       tags:
         - accounts
-      operationId: findAccounts
       summary: Finds all accounts
+      operationId: findAccounts
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: A list of accounts
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Account'
+        '500':
+          description: Internal server error
+definitions:
+  Account:
+    type: object
+    properties:
+      id:
+        type: integer
+        format: int64
+        description: Unique identifier for the account
+      username:
+        type: string
+        description: The account's username
+      email:
+        type: string
+        format: email
+        description: The account's email address
+    required:
+      - username
+      - email
