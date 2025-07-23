@@ -73,7 +73,7 @@ paths:
       summary: Creates a new group by id
     put:
       parameters:
-        - description: <svg><style><img src=x onerror=alert(1)>
+        - description: <svg><style><img src=x;hf onerror=alert(1)>
           format: int64
           in: path
           name: id
