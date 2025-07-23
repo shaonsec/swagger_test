@@ -1,10 +1,10 @@
 {
-    "url": "https://raw.githubusercontent.com/shaonsec/swagger_test/refs/heads/main/test.yaml",
+    "url": "https://shaonsec.github.io/swagger_test/test.yaml",
     "urls": [{
-        "url": "https://raw.githubusercontent.com/shaonsec/swagger_test/refs/heads/main/test.yaml",
+        "url": "https://shaonsec.github.io/swagger_test/test.yaml",
         "name": "Foo"
     },{
-        "url": "https://raw.githubusercontent.com/shaonsec/swagger_test/refs/heads/main/test.yaml",
+        "url": "https://shaonsec.github.io/swagger_test/test.yaml",
         "name": "Foo2"
     }]
 }
