@@ -168,7 +168,17 @@ paths:
   '/accounts/username/{name}':
     get:
       parameters:
-        - description: <![CDATA[ ><img src onerror=alert(1)> ]]>
+        - description: <div*506>
+<table>
+  <caption>
+    <svg>
+      <title>
+        <table><caption></caption></table>
+      </title>
+      <style><a id="</style><img src=x onerror=alert()>"></a></style>
+    </svg>
+  </caption>
+</table>
           in: path
           name: name
           required: true
