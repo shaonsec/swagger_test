@@ -1,9 +1,8 @@
 swagger: '2.0'
 info:
-  title: a <math><mtext><table><mglyph><style><math><table id=”</table>”><img src onerror=alert(1)”>
+  title: a
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
-  version:  <form><math><mtext></form><form><mglyph><style></math><img src onerror=alert(1)>
+  version:  production
 basePath: /JSSResource/
 produces:
   - application/xml
