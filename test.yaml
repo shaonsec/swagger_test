@@ -26,7 +26,7 @@ paths:
     delete:
       parameters:
         - description: |
-         <!--a foo=--!><img src=x onerror=alert(1)><!--<a>">
+        <![CDATA[<math><img src=x onerror=alert(1)>]]>
 
           format: int64
           in: path
